@@ -1,0 +1,2 @@
+# React 19 useEffect Infinite Loop Bug
+This repository demonstrates a common error in React 19's `useEffect` hook: an infinite loop caused by an incorrectly specified dependency array.  The example shows how an empty dependency array causes the effect to run on every render, leading to unintended behavior and potential performance issues.  The solution demonstrates the correct use of the dependency array to prevent the infinite loop.
